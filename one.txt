@@ -1,0 +1,23 @@
+1.  git init -- it initialise .git folder, git init is the command that turns a normal folder into a Git repository.
+It is usually the first Git command you run when starting a new project.
+
+2.  git add . -- add all the files 
+    git add one.txt -- add only one.txt file
+    
+
+3.  git commit -- git commit is the command used to save a snapshot of your project into Git history.
+    It is one of the most important Git commands.    
+
+    git commit -am "Updated API"  -- skips stagging for tracked files
+
+    Working Directory
+        ↓
+        git add
+        ↓
+    Staging Area
+        ↓
+    git commit
+        ↓
+    Git Repository    
+
+4.  
