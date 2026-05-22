@@ -61,3 +61,32 @@ It is usually the first Git command you run when starting a new project.
       soft - "Undo the commit, but keep everything ready to commit again."
       mixed - "Undo the commit and unstage the files, but keep the code."
       hard - "Go back completely and delete all local changes."
+    
+    12. git reflog - stores HEAD movement history
+                    we can recover
+                    deleted commits -
+                    lost branch pointers
+                    commits removed by reset
+                    accidental checkout/reset mistakes
+
+    13. git remote
+
+        Connects local repository to online repository.
+        Used with platforms like GitHub.
+        Enables push, pull, and collaboration.                
+
+    14. git push origin main
+
+        Pushes local main branch to remote repository.
+        Uploads commits to remote branch.
+        Does not save upstream tracking.     
+
+    15. git push -u origin main
+
+        Pushes code and sets upstream tracking.
+        Git remembers remote branch connection.
+        Future pushes can use only git push.  
+
+    16. git rm --cached two.txt --
+        two.txt gitignore me dikha raha tha but wasent ignored because it was commited before adding to gitignore.
+        now this tells Git to stop tracking the file without deleting it from your computer.  
