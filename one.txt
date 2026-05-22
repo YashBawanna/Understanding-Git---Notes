@@ -90,3 +90,13 @@ It is usually the first Git command you run when starting a new project.
     16. git rm --cached two.txt --
         two.txt gitignore me dikha raha tha but wasent ignored because it was commited before adding to gitignore.
         now this tells Git to stop tracking the file without deleting it from your computer.  
+
+    17. git clone - git clone is used to copy an existing remote Git repository to your local computer.   
+
+    18 git remote rename--
+
+       Used to change the name (nickname) of an existing remote repository.    
+
+    19. git remote remove
+
+         Used to remove/disconnect a remote repository from local Git pro     
