@@ -20,4 +20,44 @@ It is usually the first Git command you run when starting a new project.
         ↓
     Git Repository    
 
-4.  
+4.  git status --git status is a Git command used to check the current state of the repository.
+
+                git status
+                 │
+                 ▼
+     ┌─────────────────────┐
+     │ Working Directory   │
+     └─────────┬───────────┘
+               │ compare
+               ▼
+     ┌─────────────────────┐
+     │ Staging Area        │
+     └─────────┬───────────┘
+               │ compare
+               ▼
+     ┌─────────────────────┐
+     │ Latest Commit       │
+     └─────────────────────┘
+
+    5. Git Log -- git log is used to view commit history of the repository.
+
+    6. Git restore -- it helps to bring commited code back to stagging stage.
+
+    7. Git diff -- difference btw untraked changes and staging area
+    8. git log --stat -- git log --stat is used to view:
+
+        commit history
+        changed files in each commit
+        number of insertions and deletions
+
+        It gives a summarized view of what changed in every commit.
+
+    9. git commit --amend --> use to commit change in the recent commit by replacing it 
+
+    10. git restore --staged  --> used to convert staged file in untracked file
+
+    11 git reset -
+       
+      soft - "Undo the commit, but keep everything ready to commit again."
+      mixed - "Undo the commit and unstage the files, but keep the code."
+      hard - "Go back completely and delete all local changes."
