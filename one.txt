@@ -100,3 +100,14 @@ It is usually the first Git command you run when starting a new project.
     19. git remote remove
 
          Used to remove/disconnect a remote repository from local Git pro     
+
+    20. git tags - are used to create tags in github which are stored in the zip file form and can be used as whole snapshots.
+        git push origin --tags -- used to push tags in github
+        git tag v1.1 8345cb1d9d2486544f79565d651e28a25895d403 -- used to create tags of specific commit using commit ID
+        git tag v1.2 -am "message" = these are annoted tags which consists msgs
+        git tag -d v1.1 = to delete the tag
+
+
+    21. git alias = is used to create the short name of thecmd so that we can write and use it fast multiple times.
+        syntax =  git config --global alias.MC ' commit -am'
+        now commit -am = MC    
