@@ -1,0 +1,7 @@
+I have created my first branch and I have made some changes to the .gitignore file. I have added a line to ignore all .txt files and removed the line that was ignoring two.txt file.
+Now, I want to commit these changes to my branch. I will use the following commands:
+git add .gitignore
+git commit -m "Updated .gitignore to ignore all .txt files and removed two.txt from ignore list"
+After committing the changes, I will push the branch to the remote repository using:
+git push origin Branch_1
+This will allow me to share my changes with others and also create a pull request later to merge my branch into the main branch.    
