@@ -116,4 +116,9 @@ It is usually the first Git command you run when starting a new project.
          git branch -b Branch_1 = create and switches to branch in one step.
          git branch B_1 = created branch
          git checkout B_1 = Move Head to B-1
-                 
+
+    23. git merge
+        git merge is used to combine changes from one branch into another branch.   
+
+        Merge Conflict
+        Merge conflict happens when Git cannot automatically decide which code to keep.          
